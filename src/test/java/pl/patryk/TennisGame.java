@@ -1,15 +1,18 @@
 package pl.patryk;
 
-public class TennisGame {
+import pl.patryk.Point;
 
+public class TennisGame {
+    private Point point;
     public TennisGame() {
 
     }
 
     public int getScore(){
-        return 0;
+        return point;
 
     }
+
 
 
 
