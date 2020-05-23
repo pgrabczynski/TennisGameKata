@@ -9,11 +9,6 @@ public class TennisGame {
     this.player2 = player2;
     }
 
-    public String score(){
-
-        return player1.getPoint() +" "+ player2.getPoint();
-    }
-
 
 
 

@@ -2,30 +2,22 @@ package pl.patryk;
 
 public class Player {
     private String name;
-    private Point point;
-
-    public Player(String name, Point point){
+    private Integer score;
+    public Player(String name, Integer score) {
         this.name = name;
-        this.point = point;
+        this.score = score;
+
+    }
+    public void addPoint(int score){
+        this.score+=15;
 
     }
 
-    public String getName(){
-        return name;
-    }
-    public void setName(String name){
-        this.name = name;
-    }
 
-    public String getPoint(){
-        return new Point(0).toString();
-    }
-    public void setPoint(Point point){
-        this.point = point;
-    }
 
-    public void addPoint(){
-    point.addPoint(1);
+    public String getPoint() {
+       String point = Integer.toString(score);
+        return point;
     }
 
 
