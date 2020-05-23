@@ -1,7 +1,8 @@
+package pl.patryk;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import pl.patryk.Player;
-import pl.patryk.TennisGame;
+
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
